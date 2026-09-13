@@ -1,0 +1,33 @@
+# Python & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Vector Stores & Caches
+chroma_db/
+chroma_db_utf8/
+.chroma/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Temporary & Upload Files
+temp_extracted/
+*.zip
+*.rar
+*.tar.gz
+*.log
+scratch/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
